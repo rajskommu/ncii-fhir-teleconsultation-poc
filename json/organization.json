@@ -1,0 +1,42 @@
+{
+  "resourceType": "Organization",
+  "identifier": [
+	{	
+			"use":"official",
+			"value":"Rajs TPO"
+	}
+  ],
+  "active":true,
+  "name": "Rajs Tele-Provide Organization",
+   "type": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        }
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "080-431421",
+      "use": "work"
+    },
+    {
+      "system": "email",
+      "value": "rskommu@gmal.com",
+      "use": "work"
+    }
+  ],
+  "address": [
+    {
+	  "line":"RAJA SEKHAR HOSPITAL",
+      "city":"Visakhapatnam",
+	  "state":"Andhra Pradesh",
+	  "country": "India"
+    }
+  ]
+}
